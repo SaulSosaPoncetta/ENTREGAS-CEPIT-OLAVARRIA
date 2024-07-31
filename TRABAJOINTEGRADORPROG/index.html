@@ -3,123 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gestion Supermercado</title>
 
-    <link rel="stylesheet" href="estilos.css">
-
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="encabezado">
-        <div class="titulo">
-            <p class="nombre_fantasia">SUPERMERCADO "LO DE PEDRO"</p>
+    <header>
+        <div class="container">
+            <div class="logotipo">
+                
         </div>
-        <div class="menu">
+        <nav>
             <ul class="listmenu">
-                <li><a href="algo1.html">Nosotros</a></li>
-                <li><a href="algo1.html">Productos</a></li>
-                <li><a href="algo1.html">Contacto</a></li>
-            </ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./html/productos.html">Productos</a></li>
+                <li><a href="./html/contacto.html">Contacto</a></li>
+        </nav>
+<!--    <div class="search-container">
+            <input type="text" placeholder="Buscar">
+            <button>Buscar</button>
+        </div> -->
+    </header>
+
+    <main>
+        <section class="present">
+            <div class="txt-bienvenida">
+                <h1 class="bienvenida">Hola....! bienvenidos</h1>
+            </div>
+        </section>
+        <section>
+            <div class="ofertas">
+                <div class="card">
+                    <img class="imgcard1" src="./imgenes/autitos.webp" alt="Autitos de colores">
+                    <p class="descripcioncard1">Autitos</p>
+                    <p class="preciocard1">$500</p>
+                </div>
+                <div class="card">
+                    <img class="imgcard2" src="./imgenes/lapicescolores.jpg" alt="Lapices de colores">
+                    <p class="descripcioncard2">Lapices de Colores</p>
+                    <p class="preciocard2">$ 1200</p>
+                </div>
+                <div class="card">
+                    <img class="imgcard3" src="./imgenes/electrodom.jpg" alt="Electrodomesticos">
+                    <p class="descripcioncard3"></p>
+                    <p class="preciocard3"> $ <span>$$$$$$$$</span></p>
+                </div>
+            </div>
+        </section>
+        <div class="flex-container">
+            <div class="caja4">
+                <div class="somos">
+                    <h2 class="titulo">Quienes somos</h2>
+                    <div class="somos-item">
+                        <h3 class="somos-titulo">Vision</h3>
+                        <p class="somos-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tempora harum, veritatis error repellat, non iure iste eum delectus totam corporis ducimus quo magni. Tempore, distinctio obcaecati! Dolore, recusandae ipsum.</p>
+                    </div>
+                    <div class="somos-item">
+                        <h3 class="somos-titulo">Productos Variados:</h3>
+                        <p class="somos-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor, ipsum labore, aspernatur architecto cupiditate blanditiis dolorum, assumenda odio odit deleniti aliquid similique temporibus delectus nostrum dolorem repellat repudiandae explicabo.</p>
+                    </div>
+                    <div class="somos-item">
+                        <h3 class="somos-titulo">Para toda la Familia:</h3>
+                        <p class="somos-descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nihil! Architecto facilis dolorum pariatur alias. Repellat, id, corporis dolorem animi itaque similique facilis numquam assumenda cumque quam, consectetur distinctio dolorum!</p>
+                    </div>
+                    <div class="somos-item">
+                        <h3 class="somos-titulo">Sorpresa y entusiasmo:</h3>
+                        <p class="somos-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, incidunt nobis expedita eligendi velit corrupti, provident ab consequatur sit possimus quasi beatae deleniti sequi repudiandae natus suscipit, quam facilis architecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedorhistoria">
+                <h1>Nuestra Historia</h2>
+                    <div class="historia">
+                        <p class="historia-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt nobis enim repellendus, tenetur, nam quasi ratione sapiente voluptas ad aperiam omnis distinctio eos nostrum sit asperiores laudantium, quibusdam quae.
+                        Ipsa dolorum aspernatur, quam sequi quia nihil ut fugit natus deleniti provident voluptates? Eveniet, vero expedita, sunt consectetur perferendis qui dolorem voluptates doloremque, enim libero aliquid dolorum? Voluptatum, laboriosam odit.
+                        Et, impedit autem quisquam itaque tempore excepturi expedita dolore odit quis, odio quod fugiat ipsa facere omnis voluptatem earum assumenda est cum amet recusandae enim maxime libero. Recusandae, officiis id?
+                        At eveniet vel et harum quidem illo molestiae unde sed maiores delectus. Quae delectus ipsam maiores eos, dolores ratione natus commodi, rerum beatae distinctio nulla recusandae fugiat deleniti animi atque.
+                        Natus perspiciatis possimus praesentium blanditiis consectetur, velit placeat cumque. Accusamus amet, laborum sed voluptates porro expedita similique aliquam suscipit deleniti odit vel eius enim ut nemo? Porro deleniti libero et?</p>
+                    </div>
+            </div>
         </div>
-    </div>
-    <form action="">
-    <div class="cuerpo">
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text"placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p>Direccion: Colon 1975, Ciudad de Olavarria</p>
+            <p>Telefono: 54 2284 580012</p>
         </div>
-        </form>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>  
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
+        <div class="social-iconos">
+            <a href="#"><img src="/imagenes/face.png" alt="Facebook"> </a>
+            <a href="#"><img src="/imagenes/wtsp.png" alt="Watsup"> </a>
+            <a href="#"><img src="/imagenes/instag.png" alt="Instagram"> </a>
+            <a href="#"><img src="/imagenes/tiktok.png" alt="TikTok"> </a>
         </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
+        <div>
+            <p></p>
         </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro">
-        </div>
-        <div class="productos">
-            <p class="descripciones_prod">Descripcion</p>
-            <img src="" alt="imagen de producto">
-            <p>Cantidad:</p>
-            <input type="text" placeholder="" class="cantidad">
-            <p>Precio: $</p>
-            <input type="button" class="agregar_carro" title="Agregar Carro">
-        </div>
-    </div>
+    </footer>
 </body>
+
 </html>

@@ -8,9 +8,10 @@
 </head>
 <body>
     <header>
+        <div class="logotipo">
+            <img class="logo" src="../imgenes/supermarket-shop-logo-vector.jpg" alt="logotipo">
+        </div>
         <div class="container">
-            <div class="logotipo">
-            </div>
             <nav>
                 <ul class="listmenu">
                     <li><a href="../index.html">Inicio</a></li>
@@ -20,27 +21,24 @@
             </nav>
         </div>
     </header>
-
     <main>
         <div class="titulo">
-            <h1>Gondola Virtual</h1>
+            <h1>Productos</h1>
         </div>
         <section id="productos-lista">
             <div class="contenedorgeneral" id="productos"></div>
-            <div class="contenedorcalcularcompra">
-                <button onclick="calcularTotal()">Calcular Total</button>
-                <p class="totalcompra" id="totalcompra">Total de la compra $: 0.00</p>
+            <div class="contenedorfinal"><button onclick="calcularTotal()">Calcular Total</button>
+                <p class="total" id="total">Total de la compra $: 0.00</p>
             </div>
         </section>
     </main>
-<footer>
-    <div class="footer-info">
-        <p>Direccion: Colon 1975, Ciudad de Olavarria</p>
-        <p>Telefono: 54 2284 580012</p>
-        <p></p>
-    </div>
-</footer>
-    <script src="../js/productos.js" defer></script>
-</body>
-
+    <footer>
+        <div class="footer-info">
+            <p>Direccion: Colon 1975, Ciudad de Olavarria</p>
+            <p>Telefono: 54 2284 580012</p>
+            <p></p>
+        </div>
+    </footer>
+        <script src="../js/productos.js" defer></script>
+    </body>
 </html>

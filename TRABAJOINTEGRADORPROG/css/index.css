@@ -18,6 +18,12 @@ header {
     border-radius: 20px;
     width: 1500px;
 }
+header .logotipo .logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
 .listmenu {
     display: flex;
     flex-wrap: wrap;
@@ -32,10 +38,6 @@ header .container {
     align-items: center;
     height: 70px;
     border-radius: 5px;
-}
-header .logo img {
-    width: 700px;
-    height: 70px;
 }
 header nav ul {
     list-style: none;
@@ -125,7 +127,7 @@ footer .container {
 }
 .somos-titulo {
     font-size: 1.1em;
-     color: #9b8d7f;
+    color: #9b8d7f;
 }
 .somos-descripcion {
     font-size: 0.9em;
@@ -151,7 +153,6 @@ h1 {
     font-weight: bold;
     width: 100%;
 }
-
 .historia {
     background: white;
     height: 450px;
@@ -162,8 +163,6 @@ h1 {
     margin-left: 10px;
     align-content: center;
 }
-
-
 .historia-descripcion {
     font-size: 1em;
     color: black;
@@ -171,31 +170,25 @@ h1 {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-
 .contenedorhistoria .historia p{
     color: black;
     margin-left: 15px;
     text-align: center;
     font-weight: 500;
 }
-
- .card {
+.card {
     width: 150px;
     height: 180px;
     background-color: rgb(165, 122, 42);
     border-radius: 10px;
 }
-
 .card:hover {
     transform: scale(1.1);
     font-weight: 700;
 }
-
 .bienvenida:hover {
     color: red;
-
 }
-
 .imgcard1 {
     object-fit: cover;
     width: 100%;
@@ -203,7 +196,6 @@ h1 {
     overflow: hidden;
     border-radius: 10px;
 }
-
 .imgcard2 {
     object-fit: cover;
     width: 100%;
@@ -211,7 +203,6 @@ h1 {
     overflow: hidden;
     border-radius: 10px;
 }
-
 .imgcard3 {
     object-fit: cover;
     width: 100%;
@@ -219,11 +210,8 @@ h1 {
     overflow: hidden;
     border-radius: 10px;
 }
-
 .ofertas {
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
-
-
 }

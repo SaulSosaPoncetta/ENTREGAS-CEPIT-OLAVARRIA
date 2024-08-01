@@ -18,6 +18,12 @@ header {
     border-radius: 20px;
     width: 1500px;
 }
+header .logotipo .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
 .listmenu {
     display: flex;
     flex-wrap: wrap;

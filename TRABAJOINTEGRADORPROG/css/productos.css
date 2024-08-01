@@ -18,6 +18,12 @@ header {
     border-radius: 20px;
     width: 1500px;
 }
+header .logotipo .logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    margin-top: 10px;
+}
 .listmenu {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +77,7 @@ footer .footer-info {
     background-color: rgba(251, 249, 251, 0.36);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .producto {
     justify-content: space-evenly;
@@ -113,7 +119,7 @@ footer .footer-info {
     border: 1px solid black;
     border-radius: 4px;
 }
-.producto-imagen {
+.productoimagen {
     width: 150px;
     height: 150px;
 }
@@ -132,20 +138,21 @@ button {
     cursor: pointer;
     border-radius: 4px;
     font-weight: 600;
+    margin-top: 15px;
 }
 button:hover {
     transform: scale(1.5);
 }
-.contenedorcalcularcompra {
+.contenedorfinal {
     align-items: center;
     width: 100%;
     height: auto;
     background-color:rgba(251, 249, 251, 0.36);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:center;
 }
-.totalcompra {
+.total{
     background-color: white;
     color: #f86e04;
     font-size: 2em;
@@ -153,5 +160,6 @@ button:hover {
     border: 1px solid black;
     border-radius: 15px;
     padding: 15px;
-    
+    margin-left: 500px;
+    margin-right: 500px;
 }

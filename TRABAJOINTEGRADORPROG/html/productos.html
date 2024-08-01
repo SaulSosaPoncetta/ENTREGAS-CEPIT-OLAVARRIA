@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     <link rel="stylesheet" href="../css/productos.css">
 </head>
-
 <body>
     <header>
         <div class="container">
-            <div class="logo">
+            <div class="logotipo">
             </div>
             <nav>
-                <ul>
+                <ul class="listmenu">
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="../html/productos.html">Productos</a></li>
                     <li><a href="../html/contacto.html">Contacto</a></li>
@@ -29,31 +27,16 @@
         </div>
         <section id="productos-lista">
             <div class="contenedorgeneral" id="productos"></div>
-            <div class="contenedorfinal"><button onclick="calcularTotal()">Calcular Total</button>
-                <p class="total" id="total">Total de la compra $: 0.00</p>
+            <div class="contenedorcalcularcompra">
+                <button onclick="calcularTotal()">Calcular Total</button>
+                <p class="totalcompra" id="totalcompra">Total de la compra $: 0.00</p>
             </div>
         </section>
     </main>
 <footer>
-    <div class="container">
-        <div class="footer-info">
-            <p>Direccion: Colon 1975, Ciudad de Olavarria</p>
-            <p>Telefono: 54 2284 580012</p>
-        </div>
-        <nav>
-            <ul>
-                <div class="social-iconos">
-                    <a href="#"><img src="/imagenes/face.png" alt="Facebook"> </a>
-                    <a href="#"><img src="/imagenes/wtsp.png" alt="Watsup"> </a>
-                    <a href="#"><img src="/imagenes/instag.png" alt="Instagram"> </a>
-                    <a href="#"><img src="/imagenes/tiktok.png" alt="TikTok"> </a>
-                </div>
-            </ul>
-        </nav>
-    </div>
-    
-   
-    <div>
+    <div class="footer-info">
+        <p>Direccion: Colon 1975, Ciudad de Olavarria</p>
+        <p>Telefono: 54 2284 580012</p>
         <p></p>
     </div>
 </footer>

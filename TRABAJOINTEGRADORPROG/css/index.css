@@ -10,9 +10,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
     height: 80px;
     align-items: center;
     border-radius: 20px;
+    width: 1500px;
 }
 .listmenu {
     display: flex;
@@ -29,12 +33,10 @@ header .container {
     height: 70px;
     border-radius: 5px;
 }
-
 header .logo img {
     width: 700px;
     height: 70px;
 }
-
 header nav ul {
     list-style: none;
     display: flex;
@@ -42,12 +44,10 @@ header nav ul {
     width: 700px;
     height: 70px;
 }
-
 header nav ul li {
     margin: 0 20px;
     align-items: center;
 }
-
 header nav ul li a {
     color: black;
     text-decoration: none;
@@ -55,15 +55,19 @@ header nav ul li a {
     align-items: center;
     font-size: 1.2em;
 }
-
 footer {
     background: white;
     height: 130px;
     align-items: center;
-    border: #a8998b solid;
+    border: 1px solid black;
     border-radius: 10px;
+    margin-top: 10px;
+    width: 1500px;
 }
-
+footer .footer-info {
+    font-weight: 600;
+    text-align: center;
+}
 footer .container {
     display: flex;
     justify-content: space-between;
@@ -71,34 +75,6 @@ footer .container {
     height: 60px;
     border-radius: 10px;
 }
-
-footer .logo img {
-    width: 200px;
-    height: 20px;
-}
-
-footer nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    width: 700px;
-    height: 70px;
-
-}
-
-footer nav ul li {
-    margin: 0 20px;
-    align-items: center;
-}
-
-footer nav ul li a {
-    color: #a8998b;
-    text-decoration: none;
-    font-weight: bold;
-    align-items: center;
-    font-size: 1.2em;
-}
-
 .flex-container {
     display: flex;
     width: 100%;
@@ -107,41 +83,15 @@ footer nav ul li a {
     margin-top: 10px;
     padding-top: 60px;
     border-radius: 15px;
-    
 }
-
-.caja1 {
+.card4 {
     background-color: aquamarine;
-    width: 350px;
-    height: 400px;
-    margin-right: 100px;
-    margin-left: 15px;
-    border-radius: 20px;
-    }
-
-.caja2 {
-    background-color: aquamarine;
-    width: 350px;
-    height: 400px;
-    margin-right: 20px;
-    border-radius: 20px;
-}
-
-.caja3 {
-    background-color: aquamarine;
-    width: 350px;
-    height: 400px;
-    margin-right: 100px;
-}
-
-.caja4 {
-    background-color: aquamarine;
-    width: 100%;
+    width: 1500px;
     height: 500px;
     margin-top: 20px;
     padding-top: 40px;
+    border-radius: 15px;
 }
-
 .somos {
     max-width: 1200px;
     margin: 0 auto;
@@ -153,7 +103,6 @@ footer nav ul li a {
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .titulo {
     margin-left: 30px;
     font-size: 1.8em;
@@ -162,7 +111,6 @@ footer nav ul li a {
     font-weight: bold;
     width: 100%;
 }
-
 .somos-item {
     background: #f9f9f9;
     border-radius: 8px;
@@ -171,37 +119,30 @@ footer nav ul li a {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
-
 .somos-item:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid black;
 }
-
 .somos-titulo {
     font-size: 1.1em;
      color: #9b8d7f;
 }
-
 .somos-descripcion {
     font-size: 0.9em;
     color: #83776b;
     line-height: 1.6;
 }
-
 .caja5 {
     width: 100%;
     height: 500px;
     padding: 10px;
 }
-
 .contenedorhistoria {
     position: relative;
-    width: 100%;
+    width: 1480px;
     height: 95%;
     padding-top: 60px;
 }
-
-
 h1 {
     text-align: center;
     font-size: 2em;
@@ -213,7 +154,7 @@ h1 {
 
 .historia {
     background: white;
-    height: 230px;
+    height: 450px;
     width: 100%;
     padding: 5px;
     border-radius: 10px;
@@ -227,11 +168,18 @@ h1 {
     font-size: 1em;
     color: black;
     line-height: 1.6;
-    /* Espaciado entre líneas */
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.card {
+
+.contenedorhistoria .historia p{
+    color: black;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+ .card {
     width: 150px;
     height: 180px;
     background-color: rgb(165, 122, 42);

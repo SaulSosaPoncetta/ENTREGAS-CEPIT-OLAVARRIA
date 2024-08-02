@@ -46,11 +46,13 @@ function calcularTotal() {
         const cantidadInput = document.getElementById(`cantidad-${index}`);
         const cantidad = parseInt(cantidadInput.value);
 
-        if (cantidad > producto.stock) {
-            error = true;
-            mensajeError += `No puedes seleccionar más de ${producto.stock} ${producto.nombre}. \n`;
-        } else {
-            total += producto.precio * cantidad;
+        if(cantidad > 0 ){
+            if (cantidad > producto.stock) {
+                error = true;
+                mensajeError += `No puedes seleccionar más de ${producto.stock} ${producto.nombre}. \n`;
+                } else {
+                    total += producto.precio * cantidad;
+                }
         }
     });
 
